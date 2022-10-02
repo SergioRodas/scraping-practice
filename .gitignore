@@ -1,0 +1,17 @@
+node_modules
+.env
+.env_local
+.env_staging
+.env_prod
+.DS_Store
+launch.json
+data/*.json
+data/*.xml
+temp/*.jpg
+temp/*.png
+/data/*.xml
+/data/csv-retailers
+yarn.lock
+package-lock.json
+images/*.png
+images/*.jpg

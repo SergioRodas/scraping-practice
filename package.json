@@ -1,0 +1,30 @@
+{
+	"name": "scraping-practice",
+	"version": "1.0.0",
+	"description": "",
+	"main": "scraping.js",
+	"scripts": {
+		"start": "node scraping.js",
+		"dev": "nodemon scraping.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SergioRodas/scraping-practice.git"
+	},
+	"keywords": [],
+	"author": "Sergio Rodas",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SergioRodas/scraping-practice/issues"
+	},
+	"homepage": "https://github.com/SergioRodas/scraping-practice#readme",
+	"dependencies": {
+		"aws-sdk": "^2.903.0",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.1",
+		"node-cron": "^2.0.3",
+		"nodemailer": "^6.7.5",
+		"nodemon": "^2.0.20",
+		"puppeteer": "^15.1.1"
+	}
+}
